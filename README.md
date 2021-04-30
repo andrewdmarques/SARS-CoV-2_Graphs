@@ -38,16 +38,18 @@ Run excel2graph.r in R.
 
 ## Example parameters
 
-title <- 'Philadelphia SARS-CoV-2 Variants'
-rationale_list <- list('All')
-graph_type <- 'bar'
-date_start <- '2020-01-01'
-date_stop <- '2021-03-27'
-date_label <- "%b %Y"
-time_bin <- 'week'
-breaks_num <- 6
-bar_width <- 5
-scale <- 'log'
+
+* title <- 'Philadelphia SARS-CoV-2 Variants'
+* rationale_list <- list('All')
+* graph_type <- 'bar'
+* date_start <- '2020-01-01'
+* date_stop <- '2021-03-27'
+* date_label <- "%b %Y"
+* time_bin <- 'week'
+* breaks_num <- 6
+* bar_width <- 5
+* scale <- 'log'
+
 
 ## Authors
 
