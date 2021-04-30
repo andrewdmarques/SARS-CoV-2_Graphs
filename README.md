@@ -1,4 +1,4 @@
-# SarsCoV2-Graphs
+# SARSCoV2-Graphs
 
 These scripts are intended to produce graphs of SARS-CoV-2 lineages derived from John Everett's Pangolin-based pipeline.  
 
