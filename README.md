@@ -26,6 +26,7 @@ Run excel2graph.r in R.
 ## Parameters
 
 * title: The title to be printed above the graph.
+* rationale: Whether there is an included rationale list for filtering the data (y/n). 
 * rationale_list: Samples that will be graphed by filtering the rationale type of the sample. 
 * graph_type: Whether the lineages will be graphed as a bar graph ("bar") or stacked line graph ("line").
 * date_start: The threshold for the first sample date to be graphed.
@@ -40,10 +41,11 @@ Run excel2graph.r in R.
 
 
 * title <- 'Philadelphia SARS-CoV-2 Variants'
+* rationale <- 'y'
 * rationale_list <- list('All')
 * graph_type <- 'bar'
 * date_start <- '2020-01-01'
-* date_stop <- '2021-03-27'
+* date_stop <- '2021-05-21'
 * date_label <- "%b %Y"
 * time_bin <- 'week'
 * breaks_num <- 6
